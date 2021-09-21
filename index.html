@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas 3 JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h2 id="name" style="display:none"></h2>
+    <br>  
+    <div class="kalkulator">
+        <form name="form" class="inputNumber" action="" method="post">
+            <input type="number" name="pertama" >
+            <input type="number" name="kedua">
+            <input type="number" value="" name="hasil" placeholder="Hasil" disabled>
+            <input type="button" name="operasi" onclick="tambah()" value="+">
+            <input type="button" name="operasi" onclick="kurang()" value="-">
+            <br>
+            <input type="button" name="operasi" onclick="kali()" value="x">
+            <input type="button" name="operasi" onclick="bagi()" value="÷">
+            <br>
+            <input type="button" name="operasi" onclick="modulus()" value="%">
+            <input type="button" name="operasi" onclick="reset()" value="Reset">
+        </form>
+    </div>
+<script src="javascript.js"></script>
+</body>
+
+</html>
